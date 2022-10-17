@@ -59,14 +59,14 @@
                           <span>Ecommerce</span>
                       </a>
                       <ul class="sub-menu" aria-expanded="false">
-                          <li><a href="ecommerce-products.html">Products</a></li>
+                          <li><a href="{{ route('admin.products') }}">Products</a></li>
                           <li><a href="ecommerce-product-detail.html">Product Detail</a></li>
                           <li><a href="ecommerce-orders.html">Orders</a></li>
                           <li><a href="ecommerce-customers.html">Customers</a></li>
                           <li><a href="ecommerce-cart.html">Cart</a></li>
                           <li><a href="ecommerce-checkout.html">Checkout</a></li>
                           <li><a href="ecommerce-shops.html">Shops</a></li>
-                          <li><a href="ecommerce-add-product.html">Add Product</a></li>
+                          <li><a href="{{ route('admin.add_product') }}">Add Product</a></li>
                       </ul>
                   </li>
 

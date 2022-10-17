@@ -21,10 +21,9 @@
     <link href="{{ asset('backend/assets/css/icons.min.css') }}" rel="stylesheet" type="text/css" />
     <!-- App Css-->
     <link href="{{ asset('backend/assets/css/app.min.css') }}" id="app-style" rel="stylesheet" type="text/css" />
-
+    @yield('page_style')
 </head>
 
 <body data-sidebar="dark">
-
     <!-- Begin page -->
     <div id="layout-wrapper">

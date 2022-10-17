@@ -37,9 +37,17 @@ Route::get('/contact', function () {
     return view('pages.contact');
 })->name('contact');
 
-Route::get('/admin/dashboard', function () {
+Route::get('/backend/dashboard', function () {
     return view('backend.pages.index');
 })->name('admin.dashboard');
+
+Route::get('/backend/products', function () {
+    return view('backend.pages.products');
+})->name('admin.products');
+
+Route::get('/backend/add-products', function () {
+    return view('backend.pages.add-product');
+})->name('admin.add_product');
 
 
 

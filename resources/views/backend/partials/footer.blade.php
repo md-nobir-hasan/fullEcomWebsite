@@ -89,6 +89,7 @@
 
   <!-- App js -->
   <script src="{{ asset('backend/assets/js/app.js') }}"></script>
+  @yield('page_script')
   </body>
   <!-- Mirrored from themesbrand.com/skote/layouts/vertical/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 08 Sep 2020 15:07:20 GMT -->
 
