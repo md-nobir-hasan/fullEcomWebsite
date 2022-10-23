@@ -1,5 +1,7 @@
 @extends('backend.layouts.app')
 
+@section('title', 'Dashboard')
+
 @section('page_style')
 @endsection
 

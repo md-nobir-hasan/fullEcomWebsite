@@ -4,11 +4,11 @@
               <div class="col-sm-6">
                   <script>
                       document.write(new Date().getFullYear())
-                  </script> © Skote.
+                  </script> © NOBIR
               </div>
               <div class="col-sm-6">
                   <div class="text-sm-right d-none d-sm-block">
-                      Design & Develop by Themesbrand
+                      Design & Develop by MD NOBIR HASAN
                   </div>
               </div>
           </div>
@@ -91,6 +91,5 @@
   <script src="{{ asset('backend/assets/js/app.js') }}"></script>
   @yield('page_script')
   </body>
-  <!-- Mirrored from themesbrand.com/skote/layouts/vertical/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 08 Sep 2020 15:07:20 GMT -->
 
   </html>

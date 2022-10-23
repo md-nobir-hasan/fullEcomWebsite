@@ -1,7 +1,5 @@
-<!doctype html>
-<html lang="en">
-
 @extends('backend.layouts.app')
+@section('title', 'Add Product')
 
 @section('page_style')
 @endsection

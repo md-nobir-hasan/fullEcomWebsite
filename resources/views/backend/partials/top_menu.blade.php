@@ -3,21 +3,23 @@
         <div class="d-flex">
             <!-- LOGO -->
             <div class="navbar-brand-box">
-                <a href="{{ route('admin.dashboard') }}" class="logo logo-dark">
+                {{-- <a href="{{ route('admin.dashboard') }}" class="logo logo-dark">
                     <span class="logo-sm">
                         <img src="{{ asset('backend/assets/images/logo.svg') }}" alt="" height="22">
                     </span>
                     <span class="logo-lg">
                         <img src="{{ asset('backend/assets/images/logo-dark.png') }}" alt="" height="17">
                     </span>
-                </a>
+                </a> --}}
 
                 <a href="{{ route('admin.dashboard') }}" class="logo logo-light">
                     <span class="logo-sm">
-                        <img src="{{ asset('backend/assets/images/logo-light.svg') }}" alt="" height="22">
+                        <img src="{{ asset('backend/assets/images/mylogo.png') }}" alt="" height="62">
                     </span>
                     <span class="logo-lg">
-                        <img src="{{ asset('backend/assets/images/logo-light.png') }}" alt="" height="19">
+                        <img src="{{ asset('backend/assets/images/mylogo.png') }}" alt="" height="19"
+                            style="height: 62px; border-radius: 62%;">
+                        <span style="color: white; font-weight: bold; font-size: 20px;">eWeb Admin</span>
                     </span>
                 </a>
             </div>
@@ -193,7 +195,7 @@
                 </div>
             </div>
 
-            <div class="dropdown d-inline-block">
+            {{-- <div class="dropdown d-inline-block">
                 <button type="button" class="btn header-item waves-effect" data-toggle="dropdown"
                     aria-haspopup="true" aria-expanded="false">
                     <img class="" src="{{ asset('backend/assets/images/flags/us.jpg') }}" alt="Header Language"
@@ -225,9 +227,9 @@
                             class="mr-1" height="12"> <span class="align-middle">Russian</span>
                     </a>
                 </div>
-            </div>
+            </div> --}}
 
-            <div class="dropdown d-none d-lg-inline-block ml-1">
+            {{-- <div class="dropdown d-none d-lg-inline-block ml-1">
                 <button type="button" class="btn header-item noti-icon waves-effect" data-toggle="dropdown"
                     aria-haspopup="true" aria-expanded="false">
                     <i class="bx bx-customize"></i>
@@ -281,7 +283,7 @@
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> --}}
 
             <div class="dropdown d-none d-lg-inline-block ml-1">
                 <button type="button" class="btn header-item noti-icon waves-effect" data-toggle="fullscreen">
@@ -294,7 +296,8 @@
                     id="page-header-notifications-dropdown" data-toggle="dropdown" aria-haspopup="true"
                     aria-expanded="false">
                     <i class="bx bx-bell bx-tada"></i>
-                    <span class="badge badge-danger badge-pill">3</span>
+                    <span class="badge badge-danger badge-pill"
+                        style="    margin-left: 15px; width: 19px; display: block;">3</span>
                 </button>
                 <div class="dropdown-menu dropdown-menu-lg dropdown-menu-right p-0"
                     aria-labelledby="page-header-notifications-dropdown">
@@ -406,7 +409,7 @@
             </div>
 
             <div class="dropdown d-inline-block">
-                <button type="button" class="btn header-item noti-icon right-bar-toggle waves-effect">
+                <button type="button" class="btn header-item noti-icon waves-effect">
                     <i class="bx bx-cog bx-spin"></i>
                 </button>
             </div>
